@@ -1,0 +1,152 @@
+body{
+    background: #111b21;
+    color: white;
+    font-family: sans-serif;
+}
+dialog{
+    width: 400px;
+    height: 214px;
+    background:rgb(0, 0, 0);
+    border: none;
+    box-shadow:5px 6px 13px  rgba(8, 5, 5, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+.title {
+    display: flex;
+    gap:12px;
+    align-items: center;
+    color:rgb(255, 255, 255);
+}
+.title svg{
+    fill: rgb(255, 255, 255);
+}
+.title h1{
+    font-size: 20px;
+}
+.close{
+    background: #242a2d;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow:5px 6px 13px  rgba(11, 8, 8, 0.5); 
+    font-size: 5px;
+}
+.close svg{
+    fill: rgb(159, 155, 155);
+}
+.content{
+    width: 100%;
+    background: #111b21;
+    height: 100%;
+    justify-content: space-between;
+}
+.button{
+    width:100%;
+    height: 30%;
+    background: #22282c;
+    align-items: center;
+    border: 20px;
+    padding-top: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+     display: flex;
+}   
+.btn_1{
+    background: #22282c;
+    border: none;
+    color:rgb(255, 255, 255) ;
+    height: 35px;
+    width: 133px;
+    padding-top: 5px;
+}
+.btn_2{
+    background: #3c474e;
+    border: none;
+    color:rgb(255, 255, 255) ;
+    border-radius: 7%;
+    height: 35px;
+    width: 93px;
+    padding-top: 5px;
+}
+.btn_3{
+    background: black;
+    border: none;
+    color:rgb(255, 255, 255) ;
+    border-radius: 5%;
+    height: 35px;
+    width: 145px;
+    padding-top: 5px;
+}
+.p{
+    color:rgb(255, 255, 255) ;
+    position: absolute;
+     bottom: 30% ;
+    font-size: 12px;
+    padding-left: 13px;
+}
+.button2{
+    width: 100%;
+    height:5%; 
+    align-items: center;
+    border: 30px;
+    padding-top: 30px;
+     display: flex;
+     position: relative;
+     justify-content: center;
+}
+.clear-btn{
+    background: #111b21;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    color: rgb(234, 71, 96);
+    font-size: 20px;
+    border-radius: 6%;
+    height: 35px;
+    width: 75px;
+    padding-right: 2px;
+    position: absolute;
+    left: 10px;
+}
+.cancel-btn{
+    background: #293234;
+    display: flex;
+    gap:16px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 6%;
+    height: 35px;
+    width: 75px;
+    position: absolute;
+    left: 210px;
+}
+.confirm-btn{
+    background: #111b21;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    color: rgb(9, 52, 247);
+    font-size: 20px;
+    border-radius: 5%;
+    height: 35px;
+    width: 90;
+    position: absolute;
+    right: 10px;
+    
+
+}
